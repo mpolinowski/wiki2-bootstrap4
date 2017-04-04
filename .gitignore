@@ -1,3 +1,7 @@
+
+# Created by https://www.gitignore.io/api/node,windows,bower,less,sass
+
+### Node ###
 # Logs
 logs
 *.log
@@ -33,41 +37,17 @@ jspm_packages
 # Optional REPL history
 .node_repl_history
 
-# =========================
-# Operating System Files
-# =========================
 
-# OSX
-# =========================
+### Windows ###
 
-.DS_Store
-.AppleDouble
-.LSOverride
-
-# Thumbnails
-._*
-
-# Files that might appear in the root of a volume
-.DocumentRevisions-V100
-.fseventsd
-.Spotlight-V100
-.TemporaryItems
-.Trashes
-.VolumeIcon.icns
-
-# Directories potentially created on remote AFP share
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
-
-# Windows
-# =========================
+# Dependency directories
+tutorial
+_backup
 
 # Windows image file caches
 Thumbs.db
 ehthumbs.db
+course_notes.txt
 
 # Folder config file
 Desktop.ini
@@ -83,3 +63,15 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+
+
+### Bower ###
+bower_components
+.bower-cache
+.bower-registry
+.bower-tmp
+
+
+### Sass ###
+.sass-cache/
+*.css.map
